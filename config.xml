@@ -5,21 +5,21 @@ xmlznsgap = "http://phonegap.com/ns/1.0"
 id = "com.phonegap.app6"
 version ="1.0.0">
 
-<name>App6 Batalla de Puebla</name>
+<name>app6 BATALLA DEL 5 DE MAYO DE 1862</name>
 
 <description>
 Batalla del 5 de Mayo
 </description>
 
 <author href= "https://build.phonegap.com" email="aazom1g@gmail.com">
-Otíz Meza Ada Azalía 
+Ada Azalía Ortíz Meza. 
 </author>
 
 <!-- Personaliza la aplicacion y plataforma -->
-<preference name="orientation" value  ="default"/><![CDATA[]]>
+<preference name="orientation" value  ="default"/>
 <!--<preference name="orientation value ="portaril"/>
 <preference name="orientation" value="landscape"/>-->
-<preference name ="target-device" value="universal"/>
+<preference name ="target-device" value="universl"/>
 <preference name ="fullscreen" value ="true"/>
 <preference name ="android-installLocation" value="auto"/>
 <preference name="permissins" value="INTERTNET"/>
@@ -30,13 +30,12 @@ Otíz Meza Ada Azalía
 <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
 <!--<plugin name="cordova-plugin-geolocation" source="npm"/> -->
 <!--Third party plugins-->
-<!-- Para accesar a paginas en internet-->
+<!--Para accesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
-<allow-intent href="https://*/*"/>
-<acces origin="htpps://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
-
 <!-- Colocar icono app-->
 <icon src="res/android/mdpi.png"/>
 </widget>
